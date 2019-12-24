@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/notes/notes",
+    "pages/gamesindex/gamesindex",
+    "pages/2048/2048",
+    "pages/logs/logs",
+    "pages/calendar/calendar",
+    "pages/Minesweeper/Minesweeper"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "生活小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#F5F5F5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历",
+        "iconPath": "images/bar/movie-0.jpg",
+        "selectedIconPath": "images/bar/movie-1.jpg"
+      },
+      {
+        "pagePath": "pages/notes/notes",
+        "text": "便签",
+        "iconPath": "images/bar/notes-0.jpg",
+        "selectedIconPath": "images/bar/notes-1.jpg"
+      },
+      {
+        "pagePath": "pages/gamesindex/gamesindex",
+        "text": "游戏",
+        "iconPath": "images/bar/games-0.jpg",
+        "selectedIconPath": "images/bar/games-1.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "BMI",
+        "iconPath": "images/bar/me-0.jpg",
+        "selectedIconPath": "images/bar/me-1.jpg"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
